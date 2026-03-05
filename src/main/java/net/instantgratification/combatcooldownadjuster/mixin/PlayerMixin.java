@@ -38,6 +38,37 @@ public abstract class PlayerMixin {
         float attackProgress = Math.min(1.0F, (float) attackElapsed / configMs);
         cir.setReturnValue(attackProgress);
     }
+
+    @Inject(method = "getCurrentItemAttackStrengthDelay", at = @At("HEAD"), cancellable = true)
+    private void combatcooldownadjuster$overrideAttackStrengthDelay(CallbackInfoReturnable<Float> cir) {
+        Player player = (Player) (Object) this;
+        int configMs = DynamicGameRuleManager.getInt(player.level(), CombatCooldownRules.ATTACK_COOLDOWN_MS);
+        // Convert MS to ticks (float) for vanilla methods that expect a tick-based delay
+        cir.setReturnValue((float)configMs / 50.0f);
+    }
+
+    @Inject(method = "cannotAttackWithItem", at = @At("HEAD"), cancellable = true)
+    private void combatcooldownadjuster$overrideCannotAttackWithItem(net.minecraft.world.item.ItemStack itemStack, int tolerance, CallbackInfoReturnable<Boolean> cir) {
+        Player player = (Player) (Object) this;
+        float requiredStrength = itemStack.getOrDefault(net.minecraft.core.component.DataComponents.MINIMUM_ATTACK_CHARGE, 0.0F);
+        if (requiredStrength <= 0.0F) {
+            cir.setReturnValue(false);
+            return;
+        }
+
+        int configMs = DynamicGameRuleManager.getInt(player.level(), CombatCooldownRules.ATTACK_COOLDOWN_MS);
+        if (configMs == 0) {
+            cir.setReturnValue(false);
+            return;
+        }
+
+        long currentTime = Util.getMillis();
+        // Add tolerance (in ticks converted to ms) for optimistic checks
+        long attackElapsed = (currentTime - combatcooldownadjuster$lastAttackTimeMs) + (tolerance * 50L);
+        float attackProgress = Math.min(1.0F, (float) attackElapsed / configMs);
+
+        cir.setReturnValue(attackProgress < requiredStrength);
+    }
     
     @Inject(method = "getItemSwapScale", at = @At("HEAD"), cancellable = true)
     private void combatcooldownadjuster$overrideItemSwapScale(float adjustTicks, CallbackInfoReturnable<Float> cir) {
