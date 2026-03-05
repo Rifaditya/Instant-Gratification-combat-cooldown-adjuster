@@ -1,0 +1,7 @@
+{
+    "modmenu.description.combatcooldownadjuster": "Millisecond-precise combat cooldown adjustment for Snapshot 26.x.",
+    "gamerule.combatcooldownadjuster.attack_cooldown_ms": "Attack Cooldown (ms)",
+    "gamerule.combatcooldownadjuster.attack_cooldown_ms.description": "The global combat cooldown in milliseconds. When set to 0, combat behaves like Minecraft 1.8 (no cooldown). Values higher than 0 perfectly interpolate the weapon swing and crosshair. Default: 500ms.",
+    "gamerule.combatcooldownadjuster.item_swap_cooldown_ms": "Item Swap Cooldown (ms)",
+    "gamerule.combatcooldownadjuster.item_swap_cooldown_ms.description": "The cooldown applied specifically when switching items in your hotbar. Set to 0 to allow instant attacking upon swapping. Default: 500ms."
+}

@@ -1,0 +1,1 @@
+Combat Cooldown Adjuster decouples combat strength from the 20Hz tick rate, replacing it with a millisecond-precise global timer. Enables 1.8-style spam combat or custom tactical rhythms with perfectly synced visual animations on Snapshot 26.x.

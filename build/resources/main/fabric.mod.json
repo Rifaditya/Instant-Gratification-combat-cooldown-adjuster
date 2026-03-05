@@ -1,0 +1,35 @@
+{
+    "schemaVersion": 1,
+    "id": "combatcooldownadjuster",
+    "version": "1.0.1",
+    "name": "Combat Cooldown Adjuster",
+    "description": "Adjusts the combat cooldown and swing animations to match a precise millisecond timer.",
+    "authors": [
+        "Rifaditya (Dasik)"
+    ],
+    "contact": {
+        "homepage": "https://github.com/Rifaditya/Instant-Gratification-combat-cooldown-adjuster",
+        "sources": "https://github.com/Rifaditya/Instant-Gratification-combat-cooldown-adjuster"
+    },
+    "license": "GPL-3.0-or-later",
+    "icon": "assets/combatcooldownadjuster/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "net.instantgratification.combatcooldownadjuster.CombatCooldownAdjusterFabric"
+        ],
+        "client": [
+            "net.instantgratification.combatcooldownadjuster.CombatCooldownAdjusterFabricClient"
+        ]
+    },
+    "mixins": [
+        "combatcooldownadjuster.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.16.9",
+        "minecraft": "*",
+        "java": ">=25",
+        "fabric-api": "*",
+        "dasik-library": "*"
+    }
+}
