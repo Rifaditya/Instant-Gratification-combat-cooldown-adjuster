@@ -7,8 +7,8 @@ Welcome to the **Combat Cooldown Adjuster** developer portal. This section is in
 - [Architecture](./Architecture.md): Deep dive into the Millisecond Timing System and Mixin hooks.
 - [Audit Helper for Moderators](./Audit_Helper_For_Moderators.md): Essential information for CurseForge/Modrinth moderators reviewing the codebase.
 
-## 🏗️ Zenith Architecture
-This mod adheres to the strict [Zenith Core Constitution](../../.zenith/constitution.md) (if present).
+## 🏗️ Technical Foundation
+Built to a high standard of architectural excellence.
 - **Core Technology**: Java 25, Fabric Loom 1.15.
 - **Dependency**: Powered by [DasikLibrary](https://github.com/rifaditya/dasik-library).
 

@@ -17,8 +17,5 @@ This document provides a technical overview for platform moderators (CurseForge/
 - **Java Version**: 25.
 - **Mappings**: Mojang Mappings.
 
-## 📜 Zenith Compliance
-This project follows the **Zenith Protocol**, ensuring high-quality, readable code that respects Minecraft's internal logic while provided advanced customization.
-
 ---
 *Verified for Snapshot 26.1 Snapshot 10.*

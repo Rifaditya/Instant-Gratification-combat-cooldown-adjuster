@@ -44,8 +44,8 @@ git clone https://github.com/rifaditya/combat-cooldown-adjuster.git
 ./gradlew build
 ```
 
-## 🏗️ Zenith Architecture
-Built under the **Zenith Core Constitution**:
+## 🏗️ Technical Overview
+Built for high-performance and precision:
 - **Thin Mod, Fat Library**: Logic-heavy components reside in [DasikLibrary](https://github.com/rifaditya/dasik-library).
 - **O(1) Hotpath**: Cooldown checks are zero-allocation and O(1) complexity.
 - **Java 25 Native**: Leverages Virtual Threads and Pattern Matching for peak performance.
