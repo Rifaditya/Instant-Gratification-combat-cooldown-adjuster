@@ -1,5 +1,16 @@
 # 📜 Version History: Combat Cooldown Adjuster
 
+## [1.0.0] - 2026-05-10
+### Added
+- **Categorical Tick Overrides**: Exact tick delay control for Swords, Axes, Pickaxes, Shovels, Hoes, and Spears.
+- **Swap Agility**: Bypass the attack cooldown reset when switching items in the hotbar.
+- **Combat Juice**: Multi-sensory feedback with particles and pitch-shifted audio for high-charge hits.
+- **Dynamic GameRules**: Full integration with DasikLibrary for in-game configuration.
+
+### Concept Coverage ⭐
+- Features implemented: 5/5 (100%)
+
+
 ## [1.0.0+build.2] - 2026-05-10
 ### Added
 - **Categorical Tick System**: Support for Sword, Axe, Pickaxe, Shovel, Hoe, Spear, and Generic categories.

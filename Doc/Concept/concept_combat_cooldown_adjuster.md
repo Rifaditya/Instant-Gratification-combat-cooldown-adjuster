@@ -51,7 +51,7 @@ The mod automatically classifies items into the following buckets using 26.x Ite
 - `ig:enable_combat_juice`: (Boolean, default `true`. Enables particles and pitch-shifted sounds).
 
 ## Assets Needed
-- **Branding**: [icon.png](../Media/icon.png) - Premium arcade-style diamond sword icon.
+- **Branding**: [icon.png](file:///e:/Minecraft%20Project/Instant%20Gratification%20Collection/Combat%20Cooldown%20Adjuster/Doc/Media/icon.png) - Premium arcade-style diamond sword icon.
 - **Particles**: Vanilla `crit`, `enchanted_hit`, `sweep_attack`.
 - **Sounds**: Vanilla `entity.player.attack.*` (Pitch-shifted via code).
 - **Code**: Heavy Mixin usage in `Player.java`.

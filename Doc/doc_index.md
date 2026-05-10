@@ -21,8 +21,8 @@ Technical details for addon makers or contributors.
 
 ## 🌍 Platform Pages
 Drafts for mod distribution sites.
-- **[Modrinth Description](Platform Pages/Modrinth/Description Page.md)**
-- **[CurseForge Description](Platform Pages/CurseForge/Description Page.md)**
+- **[Modrinth Description](Platform%20Pages/Modrinth/Description%20Page.md)**
+- **[CurseForge Description](Platform%20Pages/CurseForge/Description%20Page.md)**
 
 ---
 

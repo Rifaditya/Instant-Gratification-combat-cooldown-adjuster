@@ -44,6 +44,7 @@ loom {
 }
 
 java {
+    withSourcesJar()
     toolchain {
         languageVersion = JavaLanguageVersion.of(25)
     }

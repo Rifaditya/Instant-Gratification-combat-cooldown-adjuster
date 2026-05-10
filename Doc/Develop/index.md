@@ -4,10 +4,10 @@ This section is for developers looking to understand the internal mechanics or b
 
 ## 🏗️ Architecture
 The mod uses a **Thin Mixin** approach. 
-- **[Architecture Overview](Architecture/Architecture.md)**: Breakdown of hooks and logic providers.
+- **[Architecture Overview](file:///e:/Minecraft%20Project/Instant%20Gratification%20Collection/Combat%20Cooldown%20Adjuster/Doc/Develop/Architecture/Architecture.md)**: Breakdown of hooks and logic providers.
 
 ## ⚙️ Registry
-- **[GameRule Reference](gamerules_reference.md)**: Internal keys and data types.
+- **[GameRule Reference](file:///e:/Minecraft%20Project/Instant%20Gratification%20Collection/Combat%20Cooldown%20Adjuster/Doc/Develop/gamerules_reference.md)**: Internal keys and data types.
 
 ## 🚀 Setting Up the Workspace
 1. Clone the repository.
