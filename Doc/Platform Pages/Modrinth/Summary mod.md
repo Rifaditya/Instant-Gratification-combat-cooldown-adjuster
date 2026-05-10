@@ -1,0 +1,1 @@
+Combat Cooldown Adjuster is a high-gratification combat overhaul for Minecraft 26.1+. It replaces rigid vanilla timings with a tick-precise categorical system (Sword, Axe, Spear, etc.), adds "Swap Agility" for instant item-swap strikes, and enhances combat feedback with "Juice" particles and sound effects. Built on DasikLibrary for seamless GameRule configuration.

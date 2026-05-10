@@ -1,48 +1,32 @@
-# Combat Cooldown Adjuster
+# ⚔️ Combat Cooldown Adjuster
 
-![Icon](Doc/Media/icon.png)
-
-[![Minecraft](https://img.shields.io/badge/Minecraft-26.x-blue.svg)](https://minecraft.net/)
+[![Minecraft](https://img.shields.io/badge/Minecraft-26.1+-brightgreen.svg)](https://minecraft.net/)
 [![Fabric](https://img.shields.io/badge/Loader-Fabric-orange.svg)](https://fabricmc.net/)
-[![License](https://img.shields.io/badge/License-GPLv3-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
-> **"Respect the Player's Time, Not the Game's Rules."**
+**Combat Cooldown Adjuster** is a high-gratification combat overhaul for Minecraft 26.1+. It replaces rigid vanilla attack speeds with a tick-precise categorical system, enabling a more fluid and rewarding combat rhythm.
 
-**Combat Cooldown Adjuster** is a premium utility mod for the **Instant Gratification Collection**. It reclaims the high-speed combat power fantasy by stripping away the artificial "wait-to-hit" friction of modern Minecraft.
+## 🚀 Features
+- **Tick-Based Categories**: Set exact speeds for Swords, Axes, Spears, and more.
+- **Swap Agility**: Rapidly switch weapons without losing your attack charge.
+- **Combat Juice**: Dynamic sensory feedback for high-charge strikes.
+- **Tag-Driven**: Works out-of-the-box with any modded items using standard tags.
 
-## 🚀 Key Features
+## 📖 Documentation
+Detailed guides and references are located in the `Doc/` directory:
+- **[Player Guide](Doc/Players/index.md)**
+- **[Developer Guide](Doc/Develop/index.md)**
+- **[Technical Index](Doc/doc_index.md)**
 
-### 1. Categorical Tick Overrides
-Total control over combat rhythm. Define exact tick durations for every major tool category:
-- **Swords**: Fast, rhythmic strikes.
-- **Axes**: Heavy, decisive blows.
-- **Spears**: Long-reach, rapid thrusts.
-- **Generic**: Customizable speed for fists and miscellaneous items.
+## 🛠️ Build Instructions
+To build the mod from source, ensure you have Java 25 installed and run:
+```bash
+./gradlew build
+```
+The compiled JAR will be located in `build/libs/`.
 
-### 2. Swap Agility
-Switch items in your hotbar without losing your attack momentum. Perfect for rapid-fire weapon combos and tactical flexibility.
-
-### 3. Combat Juice
-Visual and auditory feedback that rewards high-speed play. Critical particles and pitch-shifted hit sounds create a satisfying "Combo" feel.
-
-## ⚙️ Configuration (GameRules)
-
-All settings are manageable in-game via **DasikLibrary** namespaced GameRules:
-
-- `ig:sword_cooldown_ticks`: Default 4
-- `ig:axe_cooldown_ticks`: Default 8
-- `ig:spear_cooldown_ticks`: Default 6
-- `ig:prevent_item_swap_cooldown`: Default true
-- `ig:enable_combat_juice`: Default true
-
-## 📦 Installation
-
-1. Ensure you are running **Minecraft 26.x** (26.1.2+).
-2. Install the latest **Fabric Loader**.
-3. Drop the JAR into your `mods` folder along with **DasikLibrary**.
-
-## 📜 License
-This project is licensed under the **GPL v3 License**.
+## 🤝 Support
+Part of the **Instant Gratification Collection**. If you find this mod useful, consider supporting the project on [Ko-fi](https://ko-fi.com/dasikigaijin/tip).
 
 ---
-*Created by Dasik (Rifaditya)*
+*Made with ❤️ by Dasik (Rifaditya)*
