@@ -1,3 +1,13 @@
+## [1.0.1+build.3] - 2026-05-10
+
+### Fixed
+- **Pack Metadata Validator**: Resolved `JsonParseException` on Minecraft 26.1.2+ by adding mandatory `min_format` and `max_format` fields to `pack.mcmeta`.
+
+### Concept Coverage ⭐
+- Features implemented: N/A (Technical Fix)
+
+---
+
 ## [1.0.0] - 2026-05-10
 
 ### Added
