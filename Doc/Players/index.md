@@ -8,8 +8,8 @@ Welcome to the field manual for **Combat Cooldown Adjuster**. This mod is design
 3. **Configure**: Open your world's **Game Rules** menu to start tweaking.
 
 ## 🔍 Guides
-- **[Feature Breakdown](file:///e:/Minecraft%20Project/Instant%20Gratification%20Collection/Combat%20Cooldown%20Adjuster/Doc/Players/Features/CombatCooldownAdjuster.md)**: Detailed explanation of every mechanic.
-- **[Configuration FAQ](file:///e:/Minecraft%20Project/Instant%20Gratification%20Collection/Combat%20Cooldown%20Adjuster/Doc/Develop/gamerules_reference.md)**: What do these numbers mean?
+- **[Feature Breakdown](Features/CombatCooldownAdjuster.md)**: Detailed explanation of every mechanic.
+- **[Configuration FAQ](../Develop/gamerules_reference.md)**: What do these numbers mean?
 
 ## 💡 Pro Tips
 - **Comboing**: Enable `Swap Agility` to switch between a sword strike and an axe strike instantly.
