@@ -1,0 +1,30 @@
+{
+    "gamerule.category.combat-cooldown-adjuster.combat_cooldown": "Combat Cooldown Adjuster",
+    
+    "gamerule.ig.sword_cooldown_ticks": "Sword Cooldown (Ticks)",
+    "gamerule.ig.sword_cooldown_ticks.description": "Cooldown duration for Swords in ticks (1/20 sec). Vanilla is ~12-16 depending on material. Set to 4 for IG speed.",
+    
+    "gamerule.ig.axe_cooldown_ticks": "Axe Cooldown (Ticks)",
+    "gamerule.ig.axe_cooldown_ticks.description": "Cooldown duration for Axes. Vanilla is very slow (~20+). Set to 8 for a weighty but fast feel.",
+    
+    "gamerule.ig.pickaxe_cooldown_ticks": "Pickaxe Cooldown (Ticks)",
+    "gamerule.ig.pickaxe_cooldown_ticks.description": "Cooldown duration for Pickaxes.",
+    
+    "gamerule.ig.shovel_cooldown_ticks": "Shovel Cooldown (Ticks)",
+    "gamerule.ig.shovel_cooldown_ticks.description": "Cooldown duration for Shovels. Usually very fast.",
+    
+    "gamerule.ig.hoe_cooldown_ticks": "Hoe Cooldown (Ticks)",
+    "gamerule.ig.hoe_cooldown_ticks.description": "Cooldown duration for Hoes. Recommended: 1 tick for 'spam-hoe' combat.",
+    
+    "gamerule.ig.spear_cooldown_ticks": "Spear Cooldown (Ticks)",
+    "gamerule.ig.spear_cooldown_ticks.description": "Cooldown duration for Spears (#c:spears).",
+    
+    "gamerule.ig.generic_cooldown_ticks": "Generic Cooldown (Ticks)",
+    "gamerule.ig.generic_cooldown_ticks.description": "Cooldown for any item not in a specific category (unarmed, torches, etc.).",
+    
+    "gamerule.ig.prevent_item_swap_cooldown": "Swap Agility",
+    "gamerule.ig.prevent_item_swap_cooldown.description": "If enabled, switching items will NOT reset your attack cooldown. Allows 'Hotbar Comboing'.",
+    
+    "gamerule.ig.enable_combat_juice": "Combat Juice",
+    "gamerule.ig.enable_combat_juice.description": "Enables enhanced visual particles and pitch-shifted sounds when landing high-charge attacks."
+}

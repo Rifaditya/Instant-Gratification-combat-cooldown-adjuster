@@ -1,0 +1,35 @@
+{
+    "schemaVersion": 1,
+    "id": "combat-cooldown-adjuster",
+    "version": "${version}",
+    "name": "Combat Cooldown Adjuster",
+    "description": "Premium utility for categorical combat cooldown overrides and high-feedback combat juice.",
+    "authors": [
+        "Dasik (Rifaditya)"
+    ],
+    "contact": {
+        "homepage": "https://github.com/Dasik/Instant-Gratification-combat-cooldown-adjuster",
+        "sources": "https://github.com/Dasik/Instant-Gratification-combat-cooldown-adjuster"
+    },
+    "license": "GPL-3.0-or-later",
+    "icon": "assets/cca/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "net.instantgratification.combatcooldownadjuster.CombatCooldownAdjuster"
+        ],
+        "client": [
+            "net.instantgratification.combatcooldownadjuster.CombatCooldownAdjusterClient"
+        ]
+    },
+    "mixins": [
+        "combat-cooldown-adjuster.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.19.1",
+        "minecraft": ">=26.1.2",
+        "java": ">=25",
+        "fabric-api": "*",
+        "dasik-library": "*"
+    }
+}
