@@ -1,4 +1,4 @@
-# ⚔️ Combat Cooldown Adjuster
+﻿# ⚔️ Combat Cooldown Adjuster
 
 **Target Version:** Minecraft 26.1+ (Fabric)
 **Dependencies:** Fabric API, DasikLibrary
@@ -28,6 +28,12 @@ We've added extra sensory feedback to make combat feel more gratifying:
 
 ## 🛠️ Configuration
 
+
+<blockquote class="warning">
+<strong>âš ï¸ Important: Config vs. In-Game GameRules</strong><br>
+The global configuration file only defines <strong>default values for new worlds</strong> at creation time.
+If you have <strong>already created/opened a world</strong>, changing the config file will have no effect. You must change the settings in-game using the <strong>Edit Game Rules</strong> UI screen or the <code>/gamerule</code> command.
+</blockquote>
 Configure your experience in-game using the **Game Rules** menu. No external files required.
 
 **Example Commands:**
