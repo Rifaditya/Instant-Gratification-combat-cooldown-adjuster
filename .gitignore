@@ -1,17 +1,9 @@
-# Gradle
 .gradle/
 build/
-
-# IntelliJ
-.idea/
-*.iml
-
-# VS Code
-.vscode/
-
-# Minecraft Run Directory
+bin/
 run/
-
-# Built jars
-Archive/builds/
+.idea/
 *.jar
+Archive Jar of all versions/
+Archive/
+Doc/Marketing/
