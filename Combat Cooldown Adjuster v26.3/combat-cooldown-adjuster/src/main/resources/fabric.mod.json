@@ -31,5 +31,13 @@
         "java": ">=25",
         "fabric-api": "*",
         "dasik-library": ">=1.8.36"
+    },
+    "custom": {
+        "modmenu": {
+            "links": {
+                "modmenu.donate": "https://ko-fi.com/dasikigaijin",
+                "modmenu.kofi": "https://ko-fi.com/dasikigaijin"
+            }
+        }
     }
 }
