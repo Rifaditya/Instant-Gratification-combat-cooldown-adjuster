@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": "Combat Cooldown Adjuster Resources",
+    "pack_format": 84,
+    "supported_formats": [84, 101],
+    "min_format": 84,
+    "max_format": 101
+  }
+}
