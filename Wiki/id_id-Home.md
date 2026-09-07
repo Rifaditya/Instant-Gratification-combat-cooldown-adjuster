@@ -14,8 +14,8 @@ Berdasarkan kebijakan **1 Jar 1 Version**, setiap versi Minecraft yang didukung 
 
 | Versi Minecraft | SemVer Mod | Fabric Loader | Portal Dokumentasi |
 | :--- | :---: | :---: | :--- |
-| **Minecraft 26.2** (`26.1.2`) | `1.0.1+26.2` | `>=0.19.1` | [[👉 Masuk ke Portal Minecraft 26.2|26.2-Home]] |
-| **Minecraft 26.3** (`26.3-snapshot-6`) | `1.0.1+26.3` | `>=0.19.3` | [[👉 Masuk ke Portal Minecraft 26.3|26.3-Home]] |
+| **Minecraft 26.2** (`26.1.2`) | `1.0.1+26.2` | `>=0.19.1` | [[👉 Masuk ke Portal Minecraft 26.2|id_id-26.2-Home]] |
+| **Minecraft 26.3** (`26.3-snapshot-6`) | `1.0.1+26.3` | `>=0.19.3` | [[👉 Masuk ke Portal Minecraft 26.3|id_id-26.3-Home]] |
 
 ---
 

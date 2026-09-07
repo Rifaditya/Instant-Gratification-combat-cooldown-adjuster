@@ -14,8 +14,8 @@ Bajo la política **1 Jar 1 Version**, cada versión objetivo cuenta con un árb
 
 | Versión de Minecraft | SemVer del Mod | Fabric Loader | Portal de Documentación |
 | :--- | :---: | :---: | :--- |
-| **Minecraft 26.2** (`26.1.2`) | `1.0.1+26.2` | `>=0.19.1` | [[👉 Portal de Minecraft 26.2|26.2-Home]] |
-| **Minecraft 26.3** (`26.3-snapshot-6`) | `1.0.1+26.3` | `>=0.19.3` | [[👉 Portal de Minecraft 26.3|26.3-Home]] |
+| **Minecraft 26.2** (`26.1.2`) | `1.0.1+26.2` | `>=0.19.1` | [[👉 Portal de Minecraft 26.2|es_es-26.2-Home]] |
+| **Minecraft 26.3** (`26.3-snapshot-6`) | `1.0.1+26.3` | `>=0.19.3` | [[👉 Portal de Minecraft 26.3|es_es-26.3-Home]] |
 
 ---
 

@@ -14,8 +14,8 @@ Gemäß unserer **1 Jar 1 Version**-Architektur verfügt jeder Versionsanker üb
 
 | Minecraft-Version | Mod-Version | Fabric Loader | Dokumentationsportal |
 | :--- | :---: | :---: | :--- |
-| **Minecraft 26.2** (`26.1.2`) | `1.0.1+26.2` | `>=0.19.1` | [[👉 Minecraft 26.2 Portal|26.2-Home]] |
-| **Minecraft 26.3** (`26.3-snapshot-6`) | `1.0.1+26.3` | `>=0.19.3` | [[👉 Minecraft 26.3 Portal|26.3-Home]] |
+| **Minecraft 26.2** (`26.1.2`) | `1.0.1+26.2` | `>=0.19.1` | [[👉 Minecraft 26.2 Portal|de_de-26.2-Home]] |
+| **Minecraft 26.3** (`26.3-snapshot-6`) | `1.0.1+26.3` | `>=0.19.3` | [[👉 Minecraft 26.3 Portal|de_de-26.3-Home]] |
 
 ---
 

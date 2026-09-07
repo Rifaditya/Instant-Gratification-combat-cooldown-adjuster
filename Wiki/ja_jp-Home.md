@@ -14,8 +14,8 @@ Minecraft Fabric用 **Combat Cooldown Adjuster** の公式技術Wikiへようこ
 
 | 対象バージョン | MOD SemVer | Fabric Loader | ドキュメントポータル |
 | :--- | :---: | :---: | :--- |
-| **Minecraft 26.2** (`26.1.2`) | `1.0.1+26.2` | `>=0.19.1` | [[👉 Minecraft 26.2 ポータル|26.2-Home]] |
-| **Minecraft 26.3** (`26.3-snapshot-6`) | `1.0.1+26.3` | `>=0.19.3` | [[👉 Minecraft 26.3 ポータル|26.3-Home]] |
+| **Minecraft 26.2** (`26.1.2`) | `1.0.1+26.2` | `>=0.19.1` | [[👉 Minecraft 26.2 ポータル|ja_jp-26.2-Home]] |
+| **Minecraft 26.3** (`26.3-snapshot-6`) | `1.0.1+26.3` | `>=0.19.3` | [[👉 Minecraft 26.3 ポータル|ja_jp-26.3-Home]] |
 
 ---
 
