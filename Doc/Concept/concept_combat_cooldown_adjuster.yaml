@@ -1,0 +1,68 @@
+project:
+  name: "Combat Cooldown Adjuster"
+  version: "1.0.0"
+  author: "Dasik (Rifaditya)"
+  namespace: "cca"
+
+philosophy:
+  primary: "Instant Gratification (IG)"
+  goal: "Eliminate combat friction by scaling attack speed and adding high-feedback juice."
+
+features:
+  - id: "categorical_ticks"
+    name: "Categorical Tick Overrides"
+    description: "Sets specific cooldown tick durations based on item category tags (Swords, Axes, etc)."
+    implementation:
+      mixin: "Player"
+      method: "getCurrentItemAttackStrengthDelay"
+
+  - id: "swap_agility"
+    name: "Swap Agility"
+    description: "Prevents item switching from resetting the attack cooldown."
+    implementation:
+      mixin: "Player"
+      method: "resetAttackStrengthTicker"
+
+  - id: "combat_juice"
+    name: "Combat Juice"
+    description: "Adds particles and pitch-shifted sounds to rapid attacks."
+    implementation:
+      mixin: "Player"
+      method: "attack"
+
+configuration:
+  gamerules:
+    swordCooldownTicks:
+      type: "Integer"
+      default: 4
+    axeCooldownTicks:
+      type: "Integer"
+      default: 8
+    pickaxeCooldownTicks:
+      type: "Integer"
+      default: 4
+    shovelCooldownTicks:
+      type: "Integer"
+      default: 2
+    hoeCooldownTicks:
+      type: "Integer"
+      default: 1
+    spearCooldownTicks:
+      type: "Integer"
+      default: 6
+    genericCooldownTicks:
+      type: "Integer"
+      default: 4
+    preventItemSwapCooldown:
+      type: "Boolean"
+      default: true
+    enableCombatJuice:
+      type: "Boolean"
+      default: true
+
+qa:
+  test_cases:
+    - "Set swordCooldownTicks to 1, verify near-instant spam with vanilla damage scaling."
+    - "Switch between Sword and Axe rapidly, verify no cooldown reset."
+    - "Verify crit particles spawn on flat ground hits when attack strength is >80%."
+    - "Audit for sound spam lag during high-CPS clicks."
