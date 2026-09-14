@@ -1,3 +1,11 @@
+## [1.0.1+26.2] - 2026-09-14
+
+### Changed
+- Ported and realigned Combat Cooldown Adjuster to Minecraft 26.2.
+- Updated dependencies to Fabric API 0.150.1+26.2 and Loom 1.15+.
+
+---
+
 ## [1.0.1+build.3] - 2026-05-10
 
 ### Fixed
