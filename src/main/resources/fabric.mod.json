@@ -1,7 +1,7 @@
 {
     "schemaVersion": 1,
     "id": "combat-cooldown-adjuster",
-    "version": "1.0.2+26.3",
+    "version": "1.0.2",
     "name": "Combat Cooldown Adjuster",
     "description": "Premium utility for categorical combat cooldown overrides and high-feedback combat juice.",
     "authors": [
@@ -26,19 +26,13 @@
         "combat-cooldown-adjuster.mixins.json"
     ],
     "depends": {
-        "fabricloader": ">=0.19.5",
-        "minecraft": ">=26.3-",
+        "fabricloader": ">=0.19.1",
+        "minecraft": ">=26.1.2",
         "java": ">=25",
         "fabric-api": "*",
-        "dasik-library": ">=1.9.0"
+        "dasik-library": "*"
     },
     "custom": {
-        "modmenu": {
-            "links": {
-                "modmenu.donate": "https://ko-fi.com/dasikigaijin",
-                "modmenu.kofi": "https://ko-fi.com/dasikigaijin"
-            }
-        },
         "modrinth": {
             "projectId": "combat-cooldown-adjuster",
             "slug": "combat-cooldown-adjuster"

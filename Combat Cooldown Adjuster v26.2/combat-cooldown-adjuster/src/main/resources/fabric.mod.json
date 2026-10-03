@@ -1,7 +1,7 @@
 {
     "schemaVersion": 1,
     "id": "combat-cooldown-adjuster",
-    "version": "${version}",
+    "version": "1.0.2+26.2",
     "name": "Combat Cooldown Adjuster",
     "description": "Premium utility for categorical combat cooldown overrides and high-feedback combat juice.",
     "authors": [
@@ -38,6 +38,10 @@
                 "modmenu.donate": "https://ko-fi.com/dasikigaijin",
                 "modmenu.kofi": "https://ko-fi.com/dasikigaijin"
             }
+        },
+        "modrinth": {
+            "projectId": "combat-cooldown-adjuster",
+            "slug": "combat-cooldown-adjuster"
         }
     }
 }
